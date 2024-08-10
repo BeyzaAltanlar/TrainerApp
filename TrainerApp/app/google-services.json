@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547151207392",
+    "project_id": "trainer-beyza-irmak",
+    "storage_bucket": "trainer-beyza-irmak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547151207392:android:ed6cb07b7e0c803069a985",
+        "android_client_info": {
+          "package_name": "com.tobb.trainer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMSdTgHRKB62HBwRNz7dLtl3ybmiKnOpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
