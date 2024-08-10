@@ -1,0 +1,21 @@
+Decision Tree Model Accuracy: 0.33
+Random Forest Model Accuracy: 0.36
+XGBoost Model Accuracy: 0.36
+Gradient Boosting Model Accuracy: 0.36
+Neural Network Model Accuracy: 0.385
+SVM Model Accuracy: 0.195
+GaussianNB Model Accuracy: 0.33
+Ensemble (random forest, gradient) : 0.37 
+Ensemble model (random forest, gradient, gaussian) : 0.33             
+ensemble model (decision, random ,svm): 0.31                              
+ensemble : 0.325 (gradint ,random, svm) 
+Random forest hiperparametre ayarlaması :  0.35122450320557946
+Random Forest ve Gradient (Stacking) :  0.295
+Logistic Regression Model Accuracy: 0.3
+KNN: 0.135 
+Logistic, Decision (Stacking Model using RF) : 0.40 
+Gradient Boosting ve SVM (Stacking Model) : 0.38 
+Gradient Boosting Decision Trees (GBDT) : 0.36
+ANN : 0.33 
+
+
