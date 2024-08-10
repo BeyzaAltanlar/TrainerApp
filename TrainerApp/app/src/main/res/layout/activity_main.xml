@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Soru 1: Birincil hedefin ne? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birincil hedefin ne?"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupPrimaryGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButtonLoseWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kilo vermek"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonGetFit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forma girmek"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonGainHealthyHabits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sağlıklı alışkanlıklar edinmek"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kilonuzu girin"
+            android:inputType="number"
+            android:padding="16dp"/>
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Boyunuzu girin (cm)"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiziksel Yapınızı nasıl tanımlarsınız?"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupPhysicalBuild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonThin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İnce"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orta yapılı"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonStocky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tıknaz"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonObese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obez"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroupPastInjuries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daha önce sakatlığınız bulundu mu?"
+                android:paddingTop="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonHeadInjury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kafa bölgesi"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonChestInjury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Göğüs bölgesi"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonArmInjury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kol bölgesi"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonLegInjury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bacak Bölgesi"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonFootInjury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayak Bölgesi"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vücut hedefiniz nedir?"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupBodyGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonShrinkSizes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birkaç beden küçülmek"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonAthletic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atletik"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonTonedMuscles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parçalı kaslar"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMuscular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaslı"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fitness deneyiminizi en iyi ne tanımlar?"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupFitnessExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonDifficultyGainingMuscle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kas geliştirmekte veya vücut yağı kazanımında sıkıntı çekiyorum"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonEasyWeightFluctuation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Çaba sarf etmeden kilo alıp veriyorum"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonEasyGainHardLose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kolay kilo alıyorum ama vermekte zorlanıyorum"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <!-- 8. Soru -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En son ne zaman ideal kilonuzdaydınız?"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupLastIdealWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonLessThanAYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 yıldan az"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonOneToTwoYears"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-2 yıl"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMoreThanThreeYears"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 yıldan fazla"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonNever"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hiçbir zaman"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <!-- 9. Soru -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Çalışma programınız nasıl?"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupWorkSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonWorkNineToFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 - 5 arası"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonNightShift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gece mesaisi"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonFlexibleHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Çalışma saatlerim esnek"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonRetired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emekliyim"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <!-- 10. Soru -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipik bir gününüzü nasıl tanımlarsınız?"
+            android:paddingTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupTypicalDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonMostlySitting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Günün çoğunu oturarak geçiriyorum"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonActiveBreaks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aktif olarak mola veriyorum"
+                android:paddingVertical="8dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMostlyStanding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tüm gün ayaktayım"
+                android:paddingVertical="8dp"/>
+        </RadioGroup>
+
+        <!-- Gönder Butonu -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gönder"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:paddingVertical="12dp"
+            android:background="@color/green"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+</ScrollView>

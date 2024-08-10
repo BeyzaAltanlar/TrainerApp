@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TrainerApp</string>
+    <string name="email">  EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="password_hint">  **************</string>
+    <string name="remember_my_password">REMEMBER MY PASSWORD</string>
+    <string name="sign_in">LOGIN</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="forgot_your_login_info">FORGOT YOUR PASSWORD?</string>
+    <string name="reset_password">SEND RECOVERY EMAIL</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="email_hint">email@example.com</string>
+</resources>
